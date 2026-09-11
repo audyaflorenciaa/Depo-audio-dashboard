@@ -1,0 +1,20 @@
+# Environment Variables (Paling Penting!)
+.env
+.env.*
+!.env.example
+
+# Python / FastAPI Backend
+backend/venv/
+backend/__pycache__/
+*.py[cod]
+backend/env/
+.pytest_cache/
+
+# React / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
